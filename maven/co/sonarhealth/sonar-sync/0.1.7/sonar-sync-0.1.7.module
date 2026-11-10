@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "co.sonarhealth",
+    "module": "sonar-sync",
+    "version": "0.1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonar-sync-0.1.7.jar",
+          "url": "sonar-sync-0.1.7.jar",
+          "size": 89785,
+          "sha512": "1c307c9fd000e32257f9af712d4bf633ac3268d2fc99f03491f6b316b046f223a8c2e498215fa41c3941e981651bfc25b1052cfbb2bb376d8352ace56b2e49d6",
+          "sha256": "f545c37c40ebace1180f6a31afb3941bf0bbcee1fe96c290fba0ad16b9e8ee9f",
+          "sha1": "7816fa530902c65f9f1da8f480e1722253285ccd",
+          "md5": "cc113172640ebeb2f8eeaba211b1d6de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonar-sync-0.1.7.jar",
+          "url": "sonar-sync-0.1.7.jar",
+          "size": 89785,
+          "sha512": "1c307c9fd000e32257f9af712d4bf633ac3268d2fc99f03491f6b316b046f223a8c2e498215fa41c3941e981651bfc25b1052cfbb2bb376d8352ace56b2e49d6",
+          "sha256": "f545c37c40ebace1180f6a31afb3941bf0bbcee1fe96c290fba0ad16b9e8ee9f",
+          "sha1": "7816fa530902c65f9f1da8f480e1722253285ccd",
+          "md5": "cc113172640ebeb2f8eeaba211b1d6de"
+        }
+      ]
+    }
+  ]
+}

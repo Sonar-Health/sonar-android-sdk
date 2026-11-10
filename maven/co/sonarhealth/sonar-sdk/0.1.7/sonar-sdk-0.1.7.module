@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "co.sonarhealth",
+    "module": "sonar-sdk",
+    "version": "0.1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "co.sonarhealth",
+          "module": "sonar-sync",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonar-sdk-0.1.7.aar",
+          "url": "sonar-sdk-0.1.7.aar",
+          "size": 471060,
+          "sha512": "1612cb7d2917ea7ba545000d47ad9a05c97fa8ad6490ec7cf6530c65fb8bf5fb4938d9739e3416ca5f2a1efed13814673a54f4754cb716a3a2f6c82553246eb5",
+          "sha256": "63e95eecce2834ea1d9f4b9d7e9fb481ce7f242c4355603326dc197c5441a6f6",
+          "sha1": "088709573365758d414b1708d8d6630f903f9831",
+          "md5": "895ba88a42376bf3d4c9e0941feb631c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.health.connect",
+          "module": "connect-client",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.sonarhealth",
+          "module": "sonar-sync",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sonar-sdk-0.1.7.aar",
+          "url": "sonar-sdk-0.1.7.aar",
+          "size": 471060,
+          "sha512": "1612cb7d2917ea7ba545000d47ad9a05c97fa8ad6490ec7cf6530c65fb8bf5fb4938d9739e3416ca5f2a1efed13814673a54f4754cb716a3a2f6c82553246eb5",
+          "sha256": "63e95eecce2834ea1d9f4b9d7e9fb481ce7f242c4355603326dc197c5441a6f6",
+          "sha1": "088709573365758d414b1708d8d6630f903f9831",
+          "md5": "895ba88a42376bf3d4c9e0941feb631c"
+        }
+      ]
+    }
+  ]
+}
